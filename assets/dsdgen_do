@@ -1,0 +1,6 @@
+#!/bin/bash
+
+COMMAND="./dsdgen -scale $1 -parallel $2 -child $3 -delimiter | -terminate N -suffix .psv"
+$COMMAND
+
+exit 0;
